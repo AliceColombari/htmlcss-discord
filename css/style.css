@@ -141,37 +141,89 @@ header nav ul li a{
 /* Fine Jumbotron */
 
 /* Main */
+/* Main primo item */
 .content{
     margin: 100px auto;
 }
 
+.content::after{
+        display: table;
+        content: "";
+        clear: both;
+}
+
 img.image{
-    display: inline-block;
-    vertical-align: middle;
     width: 60%;
     object-fit: cover;
+    float: left;
+}
+
+img.image.central{
+    float: right;
 }
 
 .content-text{
-    width: 25%;
-    display: inline-block;
-    margin-left: 100px;
-    vertical-align: middle;
+    width: 30%;
+    float: right;
+}
+/* Fine Main primo item */
+/* Main secondo item */
+.content-text.central{
+    float: left;
 }
 
 .content-text h2{
     font-size: 30px;
     font-weight: 700;
     padding-bottom: 10px;
+    padding-top: 30px;
 }
 
 .content-text p{
     font-size: 16px;
     line-height: 1.5em;
 }
+/* Fine Main secondo item */
+/* Main quarto item */
+.content.last-content{
+    margin: 100px auto;
+}
 
+.last-content .text{
+    text-align: center;
+}
 
+.text h2{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
 
+.text p{
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.last-text{
+    text-align: center;
+    background-image: url('../img/stars.svg');
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.last-text h2{
+    padding-bottom: 20px;
+}
+
+.btn.btn-purple{
+    background-color: #8ea1e1;
+    color: #fff;
+}
+
+.btn.btn-purple:hover{
+    background-color: #5865f2;
+}
+/* Fine Main quarto item */
 /* Footer */
 footer{
     background-color: grey;

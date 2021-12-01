@@ -177,35 +177,25 @@ img.image.central{
     margin: 100px auto;
 }
 
-.last-content .text{
+.last-content .item{
     text-align: center;
 }
 
-.text h2{
+.item h2{
     font-size: 30px;
     font-weight: 700;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
-.text p{
+.item p{
     font-size: 16px;
     line-height: 1.5em;
-}
-
-.last-text{
-    text-align: center;
-    background-image: url('../img/stars.svg');
-    background-repeat: repeat;
-    background-size: contain;
-}
-
-.last-text h2{
-    padding-bottom: 20px;
 }
 
 .btn.btn-purple{
     background-color: #8ea1e1;
     color: #fff;
+    margin-top: 20px;
 }
 
 .btn.btn-purple:hover{

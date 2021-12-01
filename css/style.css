@@ -202,7 +202,9 @@ img.image.central{
     background-color: #5865f2;
 }
 /* Fine Main quarto item */
-/* Footer */
+
+
+/* Footer general */
 .clearfix{
     display: table;
     content: "";
@@ -222,13 +224,34 @@ img.image.central{
 #footer .col:first-child{
     width: 33.32%;
 }
-
+/* Colonna left */
 #footer .col{
     float: left;
     width: 16.66%;
     padding-top: 80px;
 }
 
+#footer h2{
+    color: #8EA1E1;
+    padding-right: 50px;
+    font-size: 35px;
+}
+
+.col .lang{
+    padding: 30px 0;
+}
+
+.col.lang p{
+    float: left;
+    font-size: 13px;
+}
+
+#footer .social i{
+    font-size: 20px;
+    margin-right: 20px;
+}
+/* Fine Colonna left */
+/* Footer elementi colonne */
 #footer ul li{
     list-style: none;
     line-height: 30px;
@@ -238,40 +261,26 @@ img.image.central{
     color: #8EA1E1;
 }
 
-#footer h2{
-    color: #8EA1E1;
-    padding-right: 50px;
-    font-size: 35px;
-}
-
 #footer ul li a{
     color: #fff;
     text-decoration: none;
 }
 
-#footer a:hover{
-    text-decoration: underline;
-}
-
-.col .lang{
-    padding: 30px 0;
-}
-
-#footer .social i{
-    font-size: 20px;
-    margin-right: 20px;
-}
+/* Fine Footer elementi colonne */
+/* Logo e login Footer */
 .col .lang img{
     float: left;
     width: 1.7rem;
     padding-right: 3px;
 }
 
-.col.lang p{
-    float: left;
-    font-size: 0.9rem;
-}
-
 #footer img{
     float: left;
 }
+
+.btn.btn-login{
+    float: right;
+    background-color: #8EA1E1;
+    color: #fff;
+}
+/* Fine Logo e login Footer */

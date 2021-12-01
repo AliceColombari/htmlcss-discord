@@ -23,19 +23,7 @@ html{
     padding: 8px 16px;
     display: inline-block;
 }
-
-/* debug - regole di servizio per strutturare pagina */
-.debug{
-    height: 500px;
-}
-
-.debug .container{
-    border: solid 1px #000;
-}
-/* Fine debug */
-
-
-
+/* Fine common */
 /* Header */
 header{
     background-color: #0056DE;
@@ -226,5 +214,9 @@ img.image.central{
 /* Fine Main quarto item */
 /* Footer */
 footer{
-    background-color: grey;
+    background-color: #23272a;
+    height: 500px;
 }
+
+.contenitore{width:100%; position:relative}
+

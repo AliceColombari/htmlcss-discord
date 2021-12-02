@@ -179,6 +179,7 @@ img.image.central{
 
 .last-content .item{
     text-align: center;
+    padding: 0px 90px;
 }
 
 .item h2{
@@ -192,6 +193,15 @@ img.image.central{
     line-height: 1.5em;
 }
 
+h3.star{
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    padding: 10px;
+    padding-top: 40px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+}
 .btn.btn-purple{
     background-color: #8ea1e1;
     color: #fff;
@@ -218,7 +228,7 @@ img.image.central{
 
 #footer .container{
     padding:30px 0;
-    border-bottom: 1px solid #8EA1E1;
+    border-top: 1px solid #8EA1E1;
 }
 
 #footer .col:first-child{
@@ -284,3 +294,4 @@ img.image.central{
     color: #fff;
 }
 /* Fine Logo e login Footer */
+
